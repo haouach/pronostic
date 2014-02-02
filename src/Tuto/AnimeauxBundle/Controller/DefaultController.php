@@ -22,7 +22,19 @@ class DefaultController extends Controller
         //entity manager
         $em=$this->getDoctrine()->getManager();//j ai remplacé le getEntityManager par getManager
 
-        $form=$this->createForm(new AnimalType);
+        $a=new Animal();
+        $form=$this->createForm(new AnimalType() );
+        $request = $this->get('request_stack')->getCurrentRequest();
+        if($request->ismethod('POST'))
+        {
+            $form->submit($request);
+            $a=$form->getData();
+            $em->persist($a);
+            $em->flush();
+
+            return $this->redirect($this->generateUrl('tuto_animeaux_homepage'));
+
+        }
 
 
        /* $a=new Animal();

@@ -32,7 +32,7 @@ class Animal
     /**
      * @var string
      *
-     * @ORM\Column(name="descreption", type="text")
+     * @ORM\Column(name="descreption", type="text",nullable=true )
      */
     private $descreption;
 

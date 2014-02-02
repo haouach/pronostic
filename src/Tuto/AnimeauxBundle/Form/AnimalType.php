@@ -16,9 +16,11 @@ class AnimalType extends AbstractType
     {
         $builder
             ->add('titre')
-            ->add('descreption')
-            ->add('url')
-            ->add('date')
+            ->add('descreption','textarea',array(
+                'required'=>false                   //ajout du 'required'=>false pour dire que c un champ non obligatoir
+            ))
+            ->add('url','url')//ajout du type de la variable dans le deusiemme parametre
+
         ;
     }
     
