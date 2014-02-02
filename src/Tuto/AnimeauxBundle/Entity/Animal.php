@@ -55,11 +55,19 @@ class Animal
      *
      * @return integer 
      */
+
     public function getId()
     {
         return $this->id;
     }
-
+    /**
+     * au moment de la construction on initialise la date
+     *
+     */
+    public function __construct()
+    {
+        $this->setDate(new \DateTime());
+    }
     /**
      * Set titre
      *
@@ -151,4 +159,5 @@ class Animal
     {
         return $this->date;
     }
+
 }
