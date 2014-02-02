@@ -1,0 +1,9 @@
+{% extends "::base.html.twig"   %}
+{% block body %}
+<h1>Ajouter un animal</h1>
+<form action="{{ path("tuto_animeaux_ajouter") }}" method="post" >
+
+    <input type="submit" >
+
+</form>
+{% endblock body %}
