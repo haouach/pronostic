@@ -1,0 +1,3 @@
+foot_pronostic_homepage:
+    pattern:  /foot/
+    defaults: { _controller: FootPronosticBundle:Default:index }
