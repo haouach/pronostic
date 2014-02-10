@@ -1,3 +1,7 @@
 foot_pronostic_homepage:
     pattern:  /foot/
     defaults: { _controller: FootPronosticBundle:Default:index }
+
+foot_pronostic_teamajout:
+    pattern:  /foot/team/ajout/
+    defaults: { _controller: FootPronosticBundle:Default:AjoutTeams }
