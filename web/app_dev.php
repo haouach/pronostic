@@ -4,7 +4,7 @@
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Debug\Debug;
 use Symfony\Component\Console\Input;
-
+include('/home/www/pronostic.webtrois.org/vendor/symfony/symfony/src/Symfony/Component/Console/Input/ArgvInput.php')
 
 
 // code ajouté pour vider le cache
