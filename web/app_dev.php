@@ -28,3 +28,5 @@ $request = Request::createFromGlobals();
 $response = $kernel->handle($request);
 $response->send();
 $kernel->terminate($request, $response);
+$cmd='/home/www/pronostic.webtrois.org/app/console cache:clear --env=prod';
+shell_exec ( $cmd  );
