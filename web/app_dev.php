@@ -1,5 +1,11 @@
 <?php
 
+$cmd='/home/www/pronostic.webtrois.org/app/console cache:clear --env=prod';
+
+$output = exec ( $cmd  );
+echo "<pre>$output</pre>";
+die;exit;
+
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Debug\Debug;
 
@@ -28,7 +34,3 @@ $request = Request::createFromGlobals();
 $response = $kernel->handle($request);
 $response->send();
 $kernel->terminate($request, $response);
-$cmd='/home/www/pronostic.webtrois.org/app/console cache:clear --env=prod';
-
-$output = exec ( $cmd  );
-echo "<pre>$output</pre>";
