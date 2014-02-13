@@ -1,10 +1,6 @@
 <?php
 
-$cmd='php /home/www/pronostic.webtrois.org/app/console cache:clear --env=prod';
 
-$output = exec ( $cmd  );
-echo "<pre>$output</pre>";
-die;exit;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Debug\Debug;
