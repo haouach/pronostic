@@ -28,7 +28,12 @@ $request = Request::createFromGlobals();
 $response = $kernel->handle($request);
 $response->send();
 $kernel->terminate($request, $response);
-  $input = new \Symfony\Component\Console\Input\ArgvInput(array('console','cache:clear'));
-  $ker= new AppKernel('prod', true);
-    $application = new \Symfony\Bundle\FrameworkBundle\Console\Application($ker);
-    $application->run($input);
+
+// code ajouté pour vider le cache
+  $input                = new \Symfony\Component\Console\Input\ArgvInput(array('console','cache:clear'));
+  $ker                  = new AppKernel('prod', true);
+  $devker               = new AppKernel('dev', true);
+  $applicationprod      = new \Symfony\Bundle\FrameworkBundle\Console\Application($ker);
+  $applicationdev       = new \Symfony\Bundle\FrameworkBundle\Console\Application($devker);
+  $applicationprod      ->run($input);
+  $applicationdev       ->run($input);
