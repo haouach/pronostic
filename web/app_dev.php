@@ -3,12 +3,12 @@
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Debug\Debug;
-use \Symfony\Component\Console\Input\;
+use Symfony\Component\Console\Input;
 
 
 
 // code ajouté pour vider le cache
-  $input                = new \Symfony\Component\Console\Input\ArgvInput(array('console','cache:clear'));
+  $input                = new ArgvInput(array('console','cache:clear'));
   $ker                  = new AppKernel('prod', true);
   $devker               = new AppKernel('dev', true);
   $applicationprod      = new \Symfony\Bundle\FrameworkBundle\Console\Application($ker);
