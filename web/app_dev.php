@@ -1,5 +1,15 @@
 <?php
 
+
+// code ajouté pour vider le cache
+  $input                = new \Symfony\Component\Console\Input\ArgvInput(array('console','cache:clear'));
+  $ker                  = new AppKernel('prod', true);
+  $devker               = new AppKernel('dev', true);
+  $applicationprod      = new \Symfony\Bundle\FrameworkBundle\Console\Application($ker);
+  $applicationdev       = new \Symfony\Bundle\FrameworkBundle\Console\Application($devker);
+  $applicationprod      ->run($input);
+  $applicationdev       ->run($input);
+
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Debug\Debug;
 
@@ -29,11 +39,3 @@ $response = $kernel->handle($request);
 $response->send();
 $kernel->terminate($request, $response);
 
-// code ajouté pour vider le cache
-  $input                = new \Symfony\Component\Console\Input\ArgvInput(array('console','cache:clear'));
-  $ker                  = new AppKernel('prod', true);
-  $devker               = new AppKernel('dev', true);
-  $applicationprod      = new \Symfony\Bundle\FrameworkBundle\Console\Application($ker);
-  $applicationdev       = new \Symfony\Bundle\FrameworkBundle\Console\Application($devker);
-  $applicationprod      ->run($input);
-  $applicationdev       ->run($input);
