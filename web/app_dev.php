@@ -1,6 +1,11 @@
 <?php
 
 
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\Debug\Debug;
+
+
+
 // code ajouté pour vider le cache
   $input                = new \Symfony\Component\Console\Input\ArgvInput(array('console','cache:clear'));
   $ker                  = new AppKernel('prod', true);
@@ -9,9 +14,6 @@
   $applicationdev       = new \Symfony\Bundle\FrameworkBundle\Console\Application($devker);
   $applicationprod      ->run($input);
   $applicationdev       ->run($input);
-
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\Debug\Debug;
 
 // If you don't want to setup permissions the proper way, just uncomment the following PHP line
 // read http://symfony.com/doc/current/book/installation.html#configuration-and-setup for more information
