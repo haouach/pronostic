@@ -1,7 +1,5 @@
 <?php
 
-
-
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Debug\Debug;
 
@@ -30,5 +28,7 @@ $request = Request::createFromGlobals();
 $response = $kernel->handle($request);
 $response->send();
 $kernel->terminate($request, $response);
-
+  $input = new \Symfony\Component\Console\Input\ArgvInput(array('console','cache:clear'));
   
+    $application = new \Symfony\Bundle\FrameworkBundle\Console\Application($ker);
+    $application->run($input);
