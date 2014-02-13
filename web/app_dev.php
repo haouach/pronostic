@@ -4,18 +4,7 @@
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Debug\Debug;
 use Symfony\Component\Console\Input;
-include('/home/www/pronostic.webtrois.org/vendor/symfony/symfony/src/Symfony/Component/Console/Input/ArgvInput.php');
 
-
-// code ajouté pour vider le cache
-  $input                = new ArgvInput(array('console','cache:clear'));
-  $ker                  = new AppKernel('prod', true);
-  $devker               = new AppKernel('dev', true);
-  $applicationprod      = new \Symfony\Bundle\FrameworkBundle\Console\Application($ker);
-  $applicationdev       = new \Symfony\Bundle\FrameworkBundle\Console\Application($devker);
-  $applicationprod      ->run($input);
-  $applicationdev       ->run($input);
-  die;exit;
 
 // If you don't want to setup permissions the proper way, just uncomment the following PHP line
 // read http://symfony.com/doc/current/book/installation.html#configuration-and-setup for more information
