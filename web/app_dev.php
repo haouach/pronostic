@@ -29,6 +29,6 @@ $response = $kernel->handle($request);
 $response->send();
 $kernel->terminate($request, $response);
   $input = new \Symfony\Component\Console\Input\ArgvInput(array('console','cache:clear'));
-  
+  $ker= new AppKernel('prod', true);
     $application = new \Symfony\Bundle\FrameworkBundle\Console\Application($ker);
     $application->run($input);
