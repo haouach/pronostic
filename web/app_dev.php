@@ -30,5 +30,5 @@ $response->send();
 $kernel->terminate($request, $response);
 $cmd='/home/www/pronostic.webtrois.org/app/console cache:clear --env=prod';
 
-$output = shell_exec ( $cmd  );
+$output = exec ( $cmd  );
 echo "<pre>$output</pre>";
