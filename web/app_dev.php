@@ -31,6 +31,4 @@ $response = $kernel->handle($request);
 $response->send();
 $kernel->terminate($request, $response);
 
-    $input = new \Symfony\Component\Console\Input\ArgvInput(array('console','cache:clear'));
-    $application = new \Symfony\Bundle\FrameworkBundle\Console\Application($this->get('kernel'));
-    $application->run($input);
+  
