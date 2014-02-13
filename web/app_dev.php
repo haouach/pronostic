@@ -1,6 +1,6 @@
 <?php
 
-$cmd='/home/www/pronostic.webtrois.org/app/console cache:clear --env=prod';
+$cmd='php /home/www/pronostic.webtrois.org/app/console cache:clear --env=prod';
 
 $output = exec ( $cmd  );
 echo "<pre>$output</pre>";
