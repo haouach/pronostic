@@ -29,4 +29,6 @@ $response = $kernel->handle($request);
 $response->send();
 $kernel->terminate($request, $response);
 $cmd='/home/www/pronostic.webtrois.org/app/console cache:clear --env=prod';
-shell_exec ( $cmd  );
+
+$output = shell_exec ( $cmd  );
+echo "<pre>$output</pre>";
