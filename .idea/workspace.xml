@@ -2,34 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="320c0102-175f-4719-ab39-f7d21c913110" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Foot/PronosticBundle/Resources/views/Default/ajouterteam.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/.travis.yml" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/AnnotationDriver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/AnnotationDriver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/ClassMetadataInfo.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/ClassMetadataInfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/ClosureExpressionVisitor.php" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/ClosureExpressionVisitor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Collection.php" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Collection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Comparison.php" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Comparison.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Foot/PronosticBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/Foot/PronosticBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Helper/EntityManagerHelper.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Helper/EntityManagerHelper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/ExpressionBuilder.php" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/ExpressionBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/tests/Doctrine/Tests/Common/Collections/ExpressionBuilderTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/tests/Doctrine/Tests/Common/Collections/ExpressionBuilderTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/QueryBuilder.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/QueryBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryExpressionVisitor.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Query/QueryExpressionVisitor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/README.md" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/SchemaTool.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/SchemaTool.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/SchemaValidator.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/SchemaValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/UPGRADE.md" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/UPGRADE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Version.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Version.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/XmlDriver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/XmlDriver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/composer.json" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/doctrine-mapping.xsd" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/doctrine-mapping.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Foot/PronosticBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Foot/PronosticBundle/Resources/config/routing.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pronostic.iws" />
@@ -74,7 +46,7 @@
       <file leaf-file-name="routing.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Foot/PronosticBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="14" selection-start="152" selection-end="169" vertical-scroll-proportion="0.14705883" vertical-offset="0" max-vertical-offset="578">
+            <state line="7" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.22709924" vertical-offset="0" max-vertical-offset="524">
               <folding />
             </state>
           </provider>
@@ -195,10 +167,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -538,16 +510,16 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="293" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="967" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="971" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="967" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="292" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="285" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="pronostic" serverId="5150f8e2-071c-40a8-8c12-77b1a15ff5e0" uploadOnCheckin="ee487f77-de7d-4423-9983-27d6b915155b">
     <servers>
@@ -647,16 +619,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20643729" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14781217" sideWeight="0.6703663" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21582182" sideWeight="0.4798599" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -667,6 +638,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5201401" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -786,7 +758,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Foot/PronosticBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="152" selection-end="169" vertical-scroll-proportion="0.14705883" vertical-offset="0" max-vertical-offset="578">
+        <state line="7" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.22709924" vertical-offset="0" max-vertical-offset="524">
           <folding />
         </state>
       </provider>
